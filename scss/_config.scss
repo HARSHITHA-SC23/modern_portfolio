@@ -1,5 +1,5 @@
 $primary-color: #444;
-$secondary-color: rgb(240, 240, 6);
+$secondary-color: rgb(228, 225, 52);
 $show-home-image: true;
 $home-image: url(../images/background.jpg);
 $background-opacity: 0.8;
@@ -20,7 +20,7 @@ $background-opacity: 0.8;
         top: 0;
         right: 0;
         width: 100%;
-        height: 100%;
+        height: 150%;
         z-index: -1;
         background: rgba($primary-color, $background-opacity);
       }
