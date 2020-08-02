@@ -36,14 +36,23 @@
   .menu-branding {
     height: 40vh;
     transform: translate3d(90%, 0, 0);
+
+    .portrait {
+      background: url("../images/self1.png");
+      border-radius: 50%;
+      border: thin 2px $secondary-color;
+    }
   }
 
-  .portrait {
-    width: 30px;
-    height: 30px;
-    background: url("../images/self1.jpg");
-    border-radius: 50%;
-    border: thin 2px $secondary-color;
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "SKILLS"
+      "PERSONALABILITIES"
+      "ACHIEVEMENTS";
+
+    grid-template-columns: 1fr;
   }
 }
 
