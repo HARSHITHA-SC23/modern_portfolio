@@ -8,9 +8,9 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/main.css" />
-    <title>Welcome to My Portfolio</title>
+    <title>View my work</title>
   </head>
-  <body id="bg-img">
+  <body>
     <header>
       <div class="menu-btn">
         <div class="btn-line"></div>
@@ -22,8 +22,8 @@
           <div class="portrait"></div>
         </div>
         <ul class="menu-nav">
-          <li class="nav-item current">
-            <a href="/" class="nav-link">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
               HOME
             </a>
           </li>
@@ -32,7 +32,7 @@
               ABOUT ME
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item current">
             <a href="work.html" class="nav-link">
               MY WORK
             </a>
@@ -45,31 +45,45 @@
         </ul>
       </nav>
     </header>
-    <main id="home">
-      <h1 class="lg-heading">
-        HARSHITHA <span class="text-secondary">SHEKAR</span>
-      </h1>
+    <main id="work">
+      <h1 class="lg-heading">MY <span class="text-secondary">WORK</span></h1>
       <h2 class="sm-heading">
-        Programmer, Developer,& Looking to embark on career in Machine Learning
+        Check out some of my projects...
       </h2>
-      <div class="icons">
-        <a href="#!">
-          <i class="fab fa-twitter fa-2x"></i>
-        </a>
-        <a href="#!">
-          <i class="fab fa-facebook fa-2x"></i>
-        </a>
-        <a href="#!">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a href="#!">
-          <i class="fab fa-github fa-2x"></i>
-        </a>
+      <div class="projects">
+        <div class="item">
+          <a href="#!">
+            <img src="images/projects/project1.jpg" alt="project" />
+          </a>
+          <a href="" class="btn-light">
+            <i class="fas fa-eye"></i> Description
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="#!">
+            <img src="images/projects/project2.jpg" alt="project" />
+          </a>
+          <a href="" class="btn-light">
+            <i class="fas fa-eye"></i> Description
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="#!">
+            <img src="images/projects/project3.jpg" alt="project" />
+          </a>
+          <a href="" class="btn-light">
+            <i class="fas fa-eye"></i> Description
+          </a>
+        </div>
       </div>
     </main>
+
     <footer id="main-footer">
       Copyright &copy; 2020 Created By Harshitha shekar
     </footer>
+
     <script src="js/main.js"></script>
   </body>
 </html>
